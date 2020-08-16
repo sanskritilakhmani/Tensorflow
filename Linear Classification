@@ -1,0 +1,11 @@
+#Load in the data
+from sklearn.datasets import load_breast_cancer
+#Load the data
+data = load_breast_cancer()
+#check the type of 'data'
+type(data)
+sklearn.utils.Bunch
+# note : it is a bunch object
+# this basucally acts like a dictionary where you can treat the keys like attributes
+data.keys()
+dict_keys(['data', 'target', 'target_names', 'DESCR', 'feature_names', 'filename'])
